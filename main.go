@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/zibnix/go-dht"
+	"github.com/prokopparuzek/go-dht"
 )
 
 func main() {

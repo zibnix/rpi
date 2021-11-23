@@ -1,4 +1,7 @@
-github.com/zibnix/go-dht v0.1.0 h1:2ZmJjOLSe3VM41a9II0EG9JMw1uTmMib0a1AkEGagaI=
-github.com/zibnix/go-dht v0.1.0/go.mod h1:cnPAXYMnb/oHJNXPrUbPRRoa1bgodnOQ4kP01DVeZQI=
-periph.io/x/periph v3.6.8+incompatible h1:lki0ie6wHtvlilXhIkabdCUQMpb5QN4Fx33yNQdqnaA=
-periph.io/x/periph v3.6.8+incompatible/go.mod h1:EWr+FCIU2dBWz5/wSWeiIUJTriYv9v2j2ENBmgYyy7Y=
+github.com/prokopparuzek/go-dht v0.1.1 h1:KYV71I8CeS3VJ/El3WNQdtYkFgPkAlxskNKaVdYkDWo=
+github.com/prokopparuzek/go-dht v0.1.1/go.mod h1:1wHWGnhV+rlLnGrJsOSmO13WfMhJnTFOojuPpMxXXfM=
+periph.io/x/conn/v3 v3.6.7 h1:hem/gzoUI0tnvdJOJAk+XLBhqBGX9sHkwShBXRGGy0k=
+periph.io/x/conn/v3 v3.6.7/go.mod h1:3OD27w9YVa5DS97VsUxsPGzD9Qrm5Ny7cF5b6xMMIWg=
+periph.io/x/host/v3 v3.6.7 h1:hUVkGKJ235XocQIRiITxSmP8TT8f27oiN7R2dJkomIE=
+periph.io/x/host/v3 v3.6.7/go.mod h1:wO+N7Q6qU1Pp9EXBfyV9t7kPAlvZxYoJl4ptK62qhSY=
+periph.io/x/periph v3.6.7+incompatible/go.mod h1:EWr+FCIU2dBWz5/wSWeiIUJTriYv9v2j2ENBmgYyy7Y=
