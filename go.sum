@@ -1,0 +1,4 @@
+github.com/zibnix/go-dht v0.1.0 h1:2ZmJjOLSe3VM41a9II0EG9JMw1uTmMib0a1AkEGagaI=
+github.com/zibnix/go-dht v0.1.0/go.mod h1:cnPAXYMnb/oHJNXPrUbPRRoa1bgodnOQ4kP01DVeZQI=
+periph.io/x/periph v3.6.8+incompatible h1:lki0ie6wHtvlilXhIkabdCUQMpb5QN4Fx33yNQdqnaA=
+periph.io/x/periph v3.6.8+incompatible/go.mod h1:EWr+FCIU2dBWz5/wSWeiIUJTriYv9v2j2ENBmgYyy7Y=
