@@ -11,13 +11,13 @@ GPIO.cleanup()
 instance = dht11.DHT11(pin = 19)
 result = instance.read()
 
-o = {'error': false, 'error_code': -9999, 'temperature': -9999, 'humidity': -9999}
+o = {'error': False, 'error_code': -9999, 'temperature': -9999, 'humidity': -9999}
 
 if result.is_valid():
     o['temperature'] = result.temperature
     o['humidity'] = result.humidity
 else:
-    o['error'] = true
+    o['error'] = True
     o['error_code'] = result.error_code
 
 print(json.dumps(o))
