@@ -34,7 +34,7 @@ var (
 func init() {
 	flag.BoolVar(&debug, "debug", false, "if set, uses debug.py by default rather than trying to read from sensors")
 	flag.Int64Var(&interval, "i", 5, "interval in seconds on which to read from the sensors")
-	flag.UintVar(&tempPin, "tpin", 19, "BCM GPIO data pin number to read from for a DHT11 temp/humidity sensor")
+	flag.UintVar(&tempPin, "tpin", 5, "BCM GPIO data pin number to read from for a DHT11 temp/humidity sensor")
 	flag.Parse()
 }
 
