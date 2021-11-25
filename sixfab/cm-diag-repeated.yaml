@@ -1,0 +1,10 @@
+con_interface: true
+modem_apn: true
+modem_mode: false
+modem_reachable: true
+network_reqister: true
+pdp_context: false
+sim_ready: true
+timestamp: 2021-11-24_20:57:08
+usb_driver: false
+usb_interface: true

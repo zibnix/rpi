@@ -1,0 +1,995 @@
+2021-11-24 19:17:27,016 --> main.py        INFO     Setting testament, is_reconnection=False, connection_id=1
+2021-11-24 19:17:27,122 --> main.py        WARNING  [MONITORING] Monitoring thread not initialized, initializing
+2021-11-24 19:17:27,123 --> main.py        WARNING  [MONITORING] Starting monitoring thread
+2021-11-24 19:17:27,124 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:17:27,309 --> main.py        INFO     Connected to the broker
+2021-11-24 19:17:37,135 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:17:37,156 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:17:37,165 --> monitoring.py  DEBUG    Sending new system data
+2021-11-24 19:17:37,166 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:17:37,359 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:17:37,393 --> monitoring.py  DEBUG    Updated last system data
+2021-11-24 19:18:07,176 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:18:07,200 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:18:07,206 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:18:07,207 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:18:23,162 --> main.py        INFO     Setting testament, is_reconnection=False, connection_id=1
+2021-11-24 19:18:23,233 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:18:28,240 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:18:33,333 --> main.py        WARNING  [MONITORING] Monitoring thread not initialized, initializing
+2021-11-24 19:18:33,334 --> main.py        WARNING  [MONITORING] Starting monitoring thread
+2021-11-24 19:18:33,335 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:18:33,440 --> main.py        INFO     Connected to the broker
+2021-11-24 19:18:43,340 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:18:43,351 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:18:43,383 --> monitoring.py  DEBUG    Sending new system data
+2021-11-24 19:18:43,400 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:18:43,529 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:18:43,582 --> monitoring.py  DEBUG    Updated last system data
+2021-11-24 19:19:13,432 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:19:13,455 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:19:13,477 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:19:13,478 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:19:43,509 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:19:43,530 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:19:43,555 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:19:43,556 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:20:13,587 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:20:13,600 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:20:13,613 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:20:13,614 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:20:43,741 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:20:44,056 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:20:44,075 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:20:44,077 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:20:45,069 --> main.py        WARNING  Disconnected from the broker
+2021-11-24 19:20:45,075 --> main.py        INFO     Setting testament, is_reconnection=True, connection_id=2
+2021-11-24 19:20:45,077 --> main.py        WARNING  Disconnected from the broker
+2021-11-24 19:20:45,078 --> main.py        INFO     Setting testament, is_reconnection=True, connection_id=3
+2021-11-24 19:21:14,127 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:21:24,139 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:21:34,150 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:21:44,161 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:21:54,172 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:22:04,183 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:22:14,194 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:22:24,200 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:22:34,211 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:22:44,219 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:22:54,230 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:23:04,239 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:23:14,246 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:23:24,249 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:23:34,259 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:23:48,136 --> main.py        INFO     Setting testament, is_reconnection=False, connection_id=1
+2021-11-24 19:23:48,154 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:23:53,160 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:24:08,169 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:24:23,185 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:24:28,191 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:24:33,198 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:24:48,215 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:24:53,222 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:25:03,235 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:25:08,333 --> main.py        WARNING  [MONITORING] Monitoring thread not initialized, initializing
+2021-11-24 19:25:08,334 --> main.py        WARNING  [MONITORING] Starting monitoring thread
+2021-11-24 19:25:08,334 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:25:08,476 --> main.py        INFO     Connected to the broker
+2021-11-24 19:25:18,345 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:25:18,365 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:25:18,389 --> monitoring.py  DEBUG    Sending new system data
+2021-11-24 19:25:18,390 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:25:18,480 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:25:18,547 --> monitoring.py  DEBUG    Updated last system data
+2021-11-24 19:25:48,420 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:25:48,438 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:25:48,458 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:25:48,459 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:25:48,611 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:27:31,900 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:27:31,913 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:27:31,927 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:27:31,928 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:27:32,104 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:28:01,959 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:28:01,986 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:28:02,020 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:28:02,021 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:28:38,344 --> main.py        INFO     Setting testament, is_reconnection=False, connection_id=1
+2021-11-24 19:28:38,386 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:28:43,392 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:28:48,476 --> main.py        WARNING  [MONITORING] Monitoring thread not initialized, initializing
+2021-11-24 19:28:48,477 --> main.py        WARNING  [MONITORING] Starting monitoring thread
+2021-11-24 19:28:48,478 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:28:48,583 --> main.py        INFO     Connected to the broker
+2021-11-24 19:28:58,484 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:28:58,501 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:28:58,522 --> monitoring.py  DEBUG    Sending new system data
+2021-11-24 19:28:58,523 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:28:58,725 --> monitoring.py  DEBUG    Updated last system data
+2021-11-24 19:28:58,814 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:29:28,543 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:29:28,573 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:29:28,599 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:29:28,599 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:29:28,693 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:30:20,941 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:30:20,971 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:30:21,003 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:30:21,004 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:30:21,155 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:30:51,035 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:30:51,065 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:30:51,108 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:30:51,109 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:30:51,238 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:31:21,135 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:31:21,149 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:31:21,164 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:31:21,165 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:31:21,325 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:31:51,195 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:31:51,211 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:31:51,226 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:31:51,227 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:31:51,334 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:32:21,258 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:32:21,272 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:32:21,286 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:32:21,286 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:32:51,318 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:32:51,347 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:32:51,373 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:32:51,373 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:33:21,405 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:33:21,436 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:33:21,466 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:33:21,467 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:33:51,495 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:33:51,510 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:33:51,526 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:33:51,527 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:33:51,632 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:34:21,558 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:34:21,591 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:34:21,623 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:34:21,624 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:34:21,711 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:34:51,645 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:34:51,674 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:34:51,703 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:34:51,703 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:34:51,865 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:35:21,734 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:35:21,766 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:35:21,796 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:35:21,797 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:35:21,929 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:35:51,829 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:35:51,857 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:35:51,883 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:35:51,884 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:36:21,915 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:36:21,941 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:36:21,964 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:36:21,965 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:36:51,995 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:36:52,008 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:36:52,021 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:36:52,022 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:37:22,053 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:37:22,082 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:37:22,112 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:37:22,113 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:37:52,144 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:37:52,171 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:37:52,201 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:37:52,202 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:37:52,295 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:38:22,233 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:38:22,249 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:38:22,275 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:38:22,276 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:38:22,375 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:38:52,307 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:38:52,336 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:38:52,361 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:38:52,362 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:39:22,394 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:39:22,421 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:39:22,447 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:39:22,448 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:39:52,479 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:39:52,497 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:39:52,511 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:39:52,511 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:40:22,543 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:40:22,571 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:40:22,594 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:40:22,594 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:40:52,626 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:40:52,639 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:40:52,655 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:40:52,656 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:40:52,765 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:41:22,686 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:41:22,714 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:41:22,740 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:41:22,740 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:41:22,836 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:41:52,765 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:41:52,789 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:41:52,803 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:41:52,804 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:41:52,907 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:42:22,825 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:42:22,841 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:42:22,856 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:42:22,856 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:42:22,963 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:42:52,887 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:42:52,917 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:42:52,943 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:42:52,944 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:43:22,975 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:43:23,001 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:43:23,027 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:43:23,028 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:43:53,055 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:43:53,070 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:43:53,085 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:43:53,086 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:44:23,117 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:44:23,148 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:44:23,178 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:44:23,178 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:44:53,209 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:44:53,240 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:44:53,270 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:44:53,271 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:45:23,295 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:45:23,308 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:45:23,322 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:45:23,323 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:45:53,354 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:45:53,385 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:45:53,415 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:45:53,416 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:46:23,435 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:46:23,450 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:46:23,467 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:46:23,467 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:46:23,595 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:46:53,498 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:46:53,529 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:46:53,555 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:46:53,556 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:46:53,648 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:47:23,587 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:47:23,614 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:47:23,641 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:47:23,642 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:47:23,795 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:47:43,949 --> main.py        INFO     Setting testament, is_reconnection=False, connection_id=1
+2021-11-24 19:47:44,003 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:47:49,009 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:47:54,095 --> main.py        WARNING  [MONITORING] Monitoring thread not initialized, initializing
+2021-11-24 19:47:54,096 --> main.py        WARNING  [MONITORING] Starting monitoring thread
+2021-11-24 19:47:54,097 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:47:54,210 --> main.py        INFO     Connected to the broker
+2021-11-24 19:48:04,108 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:48:04,124 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:48:04,139 --> monitoring.py  DEBUG    Sending new system data
+2021-11-24 19:48:04,140 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:48:04,252 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:48:04,302 --> monitoring.py  DEBUG    Updated last system data
+2021-11-24 19:48:34,172 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:48:34,203 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:48:34,232 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:48:34,233 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:48:34,321 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:49:26,136 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:49:26,166 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:49:26,195 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:49:26,195 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:49:56,226 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:49:56,240 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:49:56,253 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:49:56,254 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:50:26,285 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:50:26,300 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:50:26,315 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:50:26,316 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:50:56,347 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:50:56,374 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:50:56,398 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:50:56,399 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:51:26,430 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:51:26,443 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:51:26,472 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:51:26,473 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:51:56,490 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:51:56,504 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 19:51:56,517 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:51:56,518 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:52:26,621 --> main.py        INFO     Setting testament, is_reconnection=False, connection_id=1
+2021-11-24 19:52:26,675 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:52:31,682 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 19:52:36,774 --> main.py        WARNING  [MONITORING] Monitoring thread not initialized, initializing
+2021-11-24 19:52:36,774 --> main.py        WARNING  [MONITORING] Starting monitoring thread
+2021-11-24 19:52:36,776 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 19:52:36,881 --> main.py        INFO     Connected to the broker
+2021-11-24 19:52:46,783 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:52:46,794 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:52:46,809 --> monitoring.py  DEBUG    Sending new system data
+2021-11-24 19:52:46,810 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:52:46,909 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 19:52:46,970 --> monitoring.py  DEBUG    Updated last system data
+2021-11-24 19:53:16,842 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 19:53:16,870 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 19:53:16,900 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 19:53:16,901 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 19:53:17,080 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:17:48,485 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:17:48,513 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:17:48,542 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:17:48,543 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:17:48,673 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:18:18,574 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:18:18,590 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:18:18,605 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:18:18,606 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:18:18,746 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:18:48,637 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:18:48,666 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:18:48,691 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:18:48,692 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:19:19,136 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:19:19,200 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:19:19,226 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:19:19,227 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:19:49,316 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:19:49,330 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:19:49,344 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:19:49,345 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:20:19,376 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:20:19,407 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:20:19,437 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:20:19,438 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:20:50,081 --> main.py        INFO     Setting testament, is_reconnection=False, connection_id=1
+2021-11-24 20:20:50,127 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 20:20:55,134 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 20:21:00,237 --> main.py        WARNING  [MONITORING] Monitoring thread not initialized, initializing
+2021-11-24 20:21:00,238 --> main.py        WARNING  [MONITORING] Starting monitoring thread
+2021-11-24 20:21:00,239 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 20:21:00,347 --> main.py        INFO     Connected to the broker
+2021-11-24 20:21:10,248 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:21:10,260 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:21:10,276 --> monitoring.py  DEBUG    Sending new system data
+2021-11-24 20:21:10,277 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:21:10,440 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:21:10,477 --> monitoring.py  DEBUG    Updated last system data
+2021-11-24 20:21:40,309 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:21:40,323 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:21:40,337 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:21:40,337 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:21:40,500 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:22:31,792 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:22:31,807 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:22:31,822 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:22:31,823 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:22:31,921 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:23:01,854 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:23:01,885 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:23:01,908 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:23:01,909 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:23:02,219 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:23:31,937 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:23:31,952 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:23:31,974 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:23:31,975 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:23:32,135 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:24:02,002 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:24:02,027 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:24:02,056 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:24:02,057 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:24:32,089 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:24:32,117 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:24:32,142 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:24:32,143 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:24:32,240 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:25:02,174 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:25:02,195 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:25:02,221 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:25:02,222 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:25:02,397 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:25:32,253 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:25:32,282 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:25:32,308 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:25:32,308 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:25:32,463 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:26:02,340 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:26:02,371 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:26:02,391 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:26:02,392 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:26:02,557 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:26:32,423 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:26:32,457 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:26:32,490 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:26:32,491 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:27:02,522 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:27:02,535 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:27:02,549 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:27:02,550 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:27:02,710 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:27:32,572 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:27:32,600 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:27:32,619 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:27:32,620 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:27:42,592 --> main.py        INFO     Setting testament, is_reconnection=False, connection_id=1
+2021-11-24 20:27:42,625 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 20:27:47,632 --> main.py        ERROR    Couldn't connect, retrying in 5 seconds
+2021-11-24 20:27:52,715 --> main.py        WARNING  [MONITORING] Monitoring thread not initialized, initializing
+2021-11-24 20:27:52,716 --> main.py        WARNING  [MONITORING] Starting monitoring thread
+2021-11-24 20:27:52,718 --> monitoring.py  DEBUG    Not connected to MQTT broker, ignoring monitoring thread. Retrying in 10 secs
+2021-11-24 20:27:52,824 --> main.py        INFO     Connected to the broker
+2021-11-24 20:28:02,725 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:28:02,738 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:28:02,753 --> monitoring.py  DEBUG    Sending new system data
+2021-11-24 20:28:02,754 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:28:02,851 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:28:02,915 --> monitoring.py  DEBUG    Updated last system data
+2021-11-24 20:28:32,786 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:28:32,818 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:28:32,848 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:28:32,849 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:28:33,014 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:44:34,365 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:44:34,395 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:44:34,421 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:44:34,421 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:44:34,509 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:45:04,450 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:45:04,467 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:45:04,483 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:45:04,484 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:45:04,584 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:45:34,510 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:45:34,527 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:45:34,542 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:45:34,543 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:45:34,648 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:46:04,574 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:46:04,604 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:46:04,633 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:46:04,634 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:46:34,660 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:46:34,689 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:46:34,719 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:46:34,720 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:47:04,751 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:47:04,777 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:47:04,801 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:47:04,802 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:47:19,394 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:47:34,830 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:47:34,845 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:47:34,860 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:47:34,861 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:47:35,033 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:48:04,890 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:48:04,906 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:48:04,921 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:48:04,922 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:48:05,047 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:48:34,953 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:48:34,967 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:48:34,984 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:48:34,984 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:48:35,091 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:49:04,992 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:49:05,020 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:49:05,045 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:49:05,046 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:49:05,228 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:49:35,078 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:49:35,107 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:49:35,132 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:49:35,133 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:50:05,160 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:50:05,176 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:50:05,192 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:50:05,192 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:50:05,290 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:50:35,224 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:50:35,239 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:50:35,254 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:50:35,255 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:50:35,365 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:51:05,260 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:51:05,290 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:51:05,320 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:51:05,321 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:51:35,341 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:51:35,369 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:51:35,392 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:51:35,392 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:52:05,426 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:52:05,451 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:52:05,465 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:52:05,466 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:52:05,573 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:52:35,496 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:52:35,521 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:52:35,537 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:52:35,538 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:52:35,639 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:53:05,573 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:53:05,621 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:53:05,653 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:53:05,654 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:53:05,741 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:53:35,690 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:53:35,723 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:53:35,751 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:53:35,751 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:54:05,784 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:54:05,807 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:54:05,823 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:54:05,823 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:54:05,931 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:54:35,894 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:54:35,963 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:54:35,997 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:54:35,998 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:55:06,284 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:55:06,495 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:55:06,525 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:55:06,525 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:55:36,663 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:55:36,847 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:55:36,877 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:55:36,884 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:56:06,979 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:56:07,072 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:56:07,095 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:56:07,095 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:56:07,181 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:56:37,151 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:56:37,172 --> monitoring.py  DEBUG    Skipping monitoring data, couldn't find any changes.
+2021-11-24 20:56:37,187 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:56:37,187 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:57:07,221 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:57:07,243 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:57:07,256 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:57:07,257 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:57:07,360 --> monitoring.py  DEBUG    Updated last monitoring data
+2021-11-24 20:57:37,303 --> monitoring.py  DEBUG    [CONFIGURATOR] Configs folder not found, skip for now
+2021-11-24 20:57:37,391 --> monitoring.py  DEBUG    Sending new monitoring data
+2021-11-24 20:57:37,406 --> monitoring.py  DEBUG    Skipping system data, couldn't find any changes.
+2021-11-24 20:57:37,412 --> monitoring.py  ERROR    System data not exists!
+Traceback (most recent call last):
+  File "/opt/sixfab/core/agent/core/modules/monitoring.py", line 197, in loop
+    with open("/home/sixfab/.core/configs/config.yaml") as config_data:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/sixfab/.core/configs/config.yaml'
+2021-11-24 20:57:37,505 --> monitoring.py  DEBUG    Updated last monitoring data
